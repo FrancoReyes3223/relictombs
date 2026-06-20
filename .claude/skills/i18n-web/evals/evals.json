@@ -1,0 +1,23 @@
+{
+  "skill_name": "i18n-web",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Traduce el componente SettingsShell. Está en web/src/components/layout/SettingsShell.tsx y todavía tiene los labels en español hardcodeados en el array CATEGORIES y el título 'Ajustes' en el JSX.",
+      "expected_output": "El archivo SettingsShell.tsx modificado: los labels del array CATEGORIES ('Inicio', 'Cuenta', 'Seguridad', etc.) y los group headers ('Tu cuenta') reemplazados por t() con claves snake_case y valores por defecto. El título 'Ajustes' en PageHeader también reemplazado. El hook useTranslation importado e inicializado dentro del componente. Los strings técnicos (IDs como 'inicio', 'cuenta', etc.) no deben tocarse.",
+      "files": ["web/src/components/layout/SettingsShell.tsx"]
+    },
+    {
+      "id": 2,
+      "prompt": "Completá la traducción de UserMenu.tsx. Está en web/src/components/layout/UserMenu.tsx — la mayor parte está traducida pero me faltó el condicional de admin en la línea que dice 'Salir de Admin interno' / 'Admin interno de Tuqui'.",
+      "expected_output": "El archivo UserMenu.tsx con el ternario {isInAdmin ? 'Salir de Admin interno' : 'Admin interno de Tuqui'} reemplazado por t() con claves apropiadas. No debe tocarse ninguna otra parte del archivo ya que ya está traducido. Sin imports duplicados.",
+      "files": ["web/src/components/layout/UserMenu.tsx"]
+    },
+    {
+      "id": 3,
+      "prompt": "/i18n-web web/src/pages/settings/MemberProfilePage.tsx",
+      "expected_output": "El archivo MemberProfilePage.tsx con todos los textos en español del JSX reemplazados por t(). El hook useTranslation importado e inicializado. Los strings técnicos (IDs de campos, clases CSS, URLs) intactos.",
+      "files": ["web/src/pages/settings/MemberProfilePage.tsx"]
+    }
+  ]
+}
