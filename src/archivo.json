@@ -1,0 +1,1780 @@
+{
+  "es": [
+    {
+      "id": "artes",
+      "label": "Artes",
+      "color": "var(--ember)",
+      "grupos": [
+        {
+          "id": "soul-forged-fanarts-vol-1",
+          "label": "Soul Forged · FanArts · Vol 1",
+          "items": [
+            {
+              "titulo": "Torrin Gray - MaguroArt",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "1.0 MB",
+              "driveId": "1kx1CJst1WerUKQ-x3f_UtUsy4oL3C0oA"
+            }
+          ]
+        },
+        {
+          "id": "soul-forged-oficiales-vol-1",
+          "label": "Soul Forged · Oficiales · Vol 1",
+          "items": [
+            {
+              "titulo": "Concept Art - Harpies, Alpha Hyophage",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "272 KB",
+              "driveId": "1KLREUJg0V1wtPUvaV6zrNLoXyYX4A11k"
+            },
+            {
+              "titulo": "Concept Art - Hyophage",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "314 KB",
+              "driveId": "1vUfL6p7qgODgciTYjO127CuOCE8g64iW"
+            },
+            {
+              "titulo": "Concept Art - Slug-like Fish, Logomorphs",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "177 KB",
+              "driveId": "1gpjTsiNxtaXq_qYhgV2pmnFfFEn-7M3q"
+            },
+            {
+              "titulo": "Concept Art - Speed Dragon, Ironside",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "334 KB",
+              "driveId": "1krfhTwZs15GrCka0NTSCW_QxUdnPJCiT"
+            },
+            {
+              "titulo": "Portada del volumen 1",
+              "sub": "",
+              "formato": "JPEG",
+              "peso": "631 KB",
+              "driveId": "1JFp10JD54SHfEjD-PbsVWXHvgB9di2NL"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales",
+          "label": "TBATE · Oficiales",
+          "items": [
+            {
+              "titulo": "TBATE Vol",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "91.0 MB",
+              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-covers",
+          "label": "TBATE · Oficiales · Covers",
+          "items": [
+            {
+              "titulo": "Copia de 0-Tapas cover",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "176 KB",
+              "driveId": "1QqA5vGYLRSXqOLMS_Vw7Yb7LAqbeo7HW"
+            },
+            {
+              "titulo": "Copia de 1-V1-Original",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "529 KB",
+              "driveId": "1S98207Hrb3NaNDmdeL8aC6WCsVRBKjqU"
+            },
+            {
+              "titulo": "Copia de 1-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "404 KB",
+              "driveId": "1YJhKWCaBde6QQFqTcMM2ougc8WcQbjp-"
+            },
+            {
+              "titulo": "Copia de 1-V3",
+              "sub": "",
+              "formato": "JPEG",
+              "peso": "400 KB",
+              "driveId": "1GqDRRhv6CE45CtSjFSfEWevDJMmOhccW"
+            },
+            {
+              "titulo": "Copia de 10",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "3.5 MB",
+              "driveId": "1iZVOa_k9Rx-pnWjO7i59P4sGvXYkIawK"
+            },
+            {
+              "titulo": "Copia de 11 (promotional)",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "6.2 MB",
+              "driveId": "1IUvmys2gzrsdLuKYbze8HfnrA9v6w6HU"
+            },
+            {
+              "titulo": "Copia de 2-3",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "2.6 MB",
+              "driveId": "1MTHZmuDGCI5tEdadF3BXryq3Tv-AYm_1"
+            },
+            {
+              "titulo": "Copia de 2-V1-Original",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "472 KB",
+              "driveId": "1QiVtNdq8DpeUw6ulLp6kWo-GeC0LaPLO"
+            },
+            {
+              "titulo": "Copia de 2-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "637 KB",
+              "driveId": "1kob8TjlpyLYHcjE-YCP34vOt48JOztJK"
+            },
+            {
+              "titulo": "Copia de 3-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "315 KB",
+              "driveId": "1BNU2671HqwtI7m9u4PHaPv45nxCD3_pQ"
+            },
+            {
+              "titulo": "Copia de 3-V2",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "507 KB",
+              "driveId": "1MTIOXDyCqkBBunA29OmuJP_Y8ZJGMDWg"
+            },
+            {
+              "titulo": "Copia de 4-2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "120 KB",
+              "driveId": "1bjtOnP1Y90xjHC54EL_AoXQGXJCY0uyr"
+            },
+            {
+              "titulo": "Copia de 4-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "681 KB",
+              "driveId": "1JO4lvVfDcmMg4xzMCnaaVsvzWuH7OTcO"
+            },
+            {
+              "titulo": "Copia de 5-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "628 KB",
+              "driveId": "1L9n1Jq93L9t_BIEfIkSEut4iyQ8rrrCG"
+            },
+            {
+              "titulo": "Copia de 5-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "471 KB",
+              "driveId": "1KH6UvMc3Xi3_uhg3BPXkarHeE2Rep78K"
+            },
+            {
+              "titulo": "Copia de 6",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "1.4 MB",
+              "driveId": "1id1iDTR8bIjU7EWfSJL1DWnJqFe6FVZY"
+            },
+            {
+              "titulo": "Copia de 7",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "427 KB",
+              "driveId": "1xRNFq1xGQL0rvvhJQJpsHu4skSvqhqNr"
+            },
+            {
+              "titulo": "Copia de 8-Ascencion",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "425 KB",
+              "driveId": "1dVyV7Q2ACSY2wOZT4fOtFxPnRnAj7Yg5"
+            },
+            {
+              "titulo": "Copia de 8.5",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "337 KB",
+              "driveId": "1O2gMbQda3-Qbq0_AQ6sSbLiPRJ17ndWT"
+            },
+            {
+              "titulo": "Copia de 9",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "2.3 MB",
+              "driveId": "1AG1R-EKespsGTGsPgPysiuXp0yXRL9gT"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-novel-arts",
+          "label": "TBATE · Oficiales · Novel Arts",
+          "items": [
+            {
+              "titulo": "Copia de 265358975 1247121502453779 5536747709819687376 n",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "159 KB",
+              "driveId": "1-CuQnNj3sM5BrkqvkW3jQmNkqXnu4g6m"
+            },
+            {
+              "titulo": "Copia de Anime TheBeginningAfterTheEnd Tapas TurtleMe X",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "462 KB",
+              "driveId": "16p9OJI-avDKtgtJg7iv44zhRjTTNvJon"
+            },
+            {
+              "titulo": "Copia de carea seris",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "9.1 MB",
+              "driveId": "1aPo64HOcdD46lyLTDSK-4nrfRKVa07vo"
+            },
+            {
+              "titulo": "Copia de Clean Volume 6 cover",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "13.7 MB",
+              "driveId": "1S38oCqWXnoHlwMzej8EvmpkVnznJ9P4m"
+            },
+            {
+              "titulo": "Copia de f2abb2 f2be9e4d96b14d37aea1f460eb9448ca mv2",
+              "sub": "",
+              "formato": "WEBP",
+              "peso": "482 KB",
+              "driveId": "1l_smtGM3loS-wExvkrYPu9EyPkcSgjXG"
+            },
+            {
+              "titulo": "Copia de Grey vs Wraith",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "30.1 MB",
+              "driveId": "1dWA_PiAEpzVwB7PIGPqAofGJVZdvHuHr"
+            },
+            {
+              "titulo": "Copia de Medium Ver. 58MB",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "58.8 MB",
+              "driveId": "1dGB3p6rlEtHOkKzI2_jWDstwuZNC2rnu"
+            },
+            {
+              "titulo": "Copia de sf0wozd0t2b91",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "76 KB",
+              "driveId": "12cbhZhFRP6lezwpl8eBTp0vZx6eoMcyw"
+            },
+            {
+              "titulo": "Copia de Small Ver. 24MB",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "24.3 MB",
+              "driveId": "1m_OetA_NTG-Sr4L53Rh7m3EqHEUugHvX"
+            },
+            {
+              "titulo": "Copia de Tapas Novel Cover",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "3.6 MB",
+              "driveId": "1eKGpxwnQA2-NoJUE2rLB273vk2mQhpl2"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 17x11",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "30.1 MB",
+              "driveId": "1NiIsp7nXutOwUPvkk0pTIw7aJzqUXLi7"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 24x18",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "61.3 MB",
+              "driveId": "1DG-xyyS-5QcIBQ2JFHvtvG3GDO0ICUV_"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 36x24",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "110.0 MB",
+              "driveId": "1703iGJkqaLvQBKmAzjlhW5geOZfGlXpx"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer original",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "65.4 MB",
+              "driveId": "1ux9f1DydLF9VWJQ8AthJake6ArLY9hVL"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint Vol08 36x24",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "89.6 MB",
+              "driveId": "1025l1J0FOa7sH-E6KzJgiJ2Cp83kcmVc"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint Vol08 original",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "93.2 MB",
+              "driveId": "1uxBZcXhLH3NRcFEBBHrE-blDJCmdqOwZ"
+            },
+            {
+              "titulo": "Copia de tessia agrona artwork",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "2.5 MB",
+              "driveId": "1TV2V1aSHMzG1pMqXdvQK4k49kHn35C4N"
+            },
+            {
+              "titulo": "Copia de Tessia full",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "8.0 MB",
+              "driveId": "1btSvzYdbtznxmce9nHfodVXFYD1dUmrp"
+            },
+            {
+              "titulo": "Copia de Vol 5 Full ver",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "3.7 MB",
+              "driveId": "10kjuhwI1RICno0Yj7VYezsjOZA1ZHBQv"
+            },
+            {
+              "titulo": "Copia de vol 8 full ver",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "74.2 MB",
+              "driveId": "1kvdRPfpOZ-OJWrzQFJDI5fmjoneJxZzb"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-novel-arts-maps",
+          "label": "TBATE · Oficiales · Novel Arts · Maps",
+          "items": [
+            {
+              "titulo": "Copia de Dicathen",
+              "sub": "",
+              "formato": "WEBP",
+              "peso": "465 KB",
+              "driveId": "1b9z4lbzL_aUkvLIxYqWNrF6f8EvCkAR9"
+            },
+            {
+              "titulo": "Copia de small alacrya",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "4.9 MB",
+              "driveId": "19wLxahZXYc7L6Kc7iC1NjSsQLS6mGRNS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soulforged",
+      "label": "Soul Forged",
+      "color": "var(--soul)",
+      "grupos": [
+        {
+          "id": "traduccion-por-ia-vol-1-epub",
+          "label": "Traducción por IA · VOL 1 · EPUB",
+          "items": [
+            {
+              "titulo": "Soul Forged Cap 1 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "83 KB",
+              "driveId": "1Xq0acJQz5Y2O_zaT75QKCIzo-uwynDZI"
+            },
+            {
+              "titulo": "Soul Forged Cap 12 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "204 KB",
+              "driveId": "1mwxDOBh-Al0AacNXYsgqC-V4rQLkruOJ"
+            },
+            {
+              "titulo": "Soul Forged Cap 13 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "232 KB",
+              "driveId": "1mQugqntdI5txkv7TyY0uZoLdX-WFMfaW"
+            },
+            {
+              "titulo": "Soul Forged Cap 14 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "359 KB",
+              "driveId": "1u24Y-uXy-zMQpcKpYn95cgZ68OJ1eopx"
+            },
+            {
+              "titulo": "Soul Forged Cap 15 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "382 KB",
+              "driveId": "1Fhgl5FNdGmrwu6j56TBpRnunnnDnQQcs"
+            },
+            {
+              "titulo": "Soul Forged Cap 16 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "282 KB",
+              "driveId": "1gGhIN6-_diENDo6Lq7k7ji2j_a-fUg8S"
+            },
+            {
+              "titulo": "Soul Forged Cap 17 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "199 KB",
+              "driveId": "19Z1L5eqianUe2QDEeTRbnKE5k4TYLZtq"
+            },
+            {
+              "titulo": "Soul Forged Cap 18 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "197 KB",
+              "driveId": "1ZquQX4GPFndR4VEhsKi9n2fEdT0lZuPm"
+            },
+            {
+              "titulo": "Soul Forged Cap 19 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "253 KB",
+              "driveId": "1n40XZbFZRZ1LVmtgNh0BGqMjMtqdgXY6"
+            },
+            {
+              "titulo": "Soul Forged Cap 2 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "96 KB",
+              "driveId": "1YaFSXq1GySWI5cDoCvNy6a1S8qlF1SMX"
+            },
+            {
+              "titulo": "Soul Forged Cap 20 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "268 KB",
+              "driveId": "1yMaIAQgsYDhmPuw_pW30MsqLi28_Xy9x"
+            },
+            {
+              "titulo": "Soul Forged Cap 21 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "237 KB",
+              "driveId": "1dT-nb6XdYnrpyR7nvdfHKqgrZ6cluS5i"
+            },
+            {
+              "titulo": "Soul Forged Cap 22 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "216 KB",
+              "driveId": "1E_hx4lS4EWlz6azq0Awc5eAVmggAvNOf"
+            },
+            {
+              "titulo": "Soul Forged Cap 23 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "262 KB",
+              "driveId": "1MUIkc7KbiNGEnNGBVOhqmIHI3Bw7zBjs"
+            },
+            {
+              "titulo": "Soul Forged Cap 24 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "264 KB",
+              "driveId": "1gjwfzZUEO7husc6xPMfIGt98YU4YuWQ1"
+            },
+            {
+              "titulo": "Soul Forged Cap 25 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "287 KB",
+              "driveId": "1LGMZaa85Hlmu56cQ5sgB0dhuSux3igMW"
+            },
+            {
+              "titulo": "Soul Forged Cap 26 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "291 KB",
+              "driveId": "13Dd8BOKtAtXyMlYygEY8iNfFy72fy66_"
+            },
+            {
+              "titulo": "Soul Forged Cap 27 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "294 KB",
+              "driveId": "1kT0jJ4mLOu0Zao8JMO0lT8AEpuXVuoew"
+            },
+            {
+              "titulo": "Soul Forged Cap 28 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "339 KB",
+              "driveId": "15dMIuZtW5tr9AGH5oaVfOs6m_F1kRsPs"
+            },
+            {
+              "titulo": "Soul Forged Cap 29 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "203 KB",
+              "driveId": "1FBDpogk1J8IFfc1v8lbxcEWXBtxS6mTz"
+            },
+            {
+              "titulo": "Soul Forged Cap 3 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "87 KB",
+              "driveId": "1YzsaeA-tEYJn7EPKu11_bL7fKNDLUkiH"
+            },
+            {
+              "titulo": "Soul Forged Cap 30 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "202 KB",
+              "driveId": "1tQ_SWwTe-sbi39VhSWC--__SbbZjzA7C"
+            },
+            {
+              "titulo": "Soul Forged Cap 31 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "245 KB",
+              "driveId": "17MVqNZwDKhQs3UM0QPjSa4e3qXDMUpEJ"
+            },
+            {
+              "titulo": "Soul Forged Cap 32 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "282 KB",
+              "driveId": "1KBFZhuo0sbTfz_xP5BJSVnbRDrv_Fm0n"
+            },
+            {
+              "titulo": "Soul Forged cap 33 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "395 KB",
+              "driveId": "1Jv_8b5wRxFVWVfLhnBS8EU_uqsV_ShRw"
+            },
+            {
+              "titulo": "Soul Forged Cap 34 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "403 KB",
+              "driveId": "1gSm1wl-gK7IneurZzta0KM_f4plyQfTs"
+            },
+            {
+              "titulo": "Soul Forged Cap 35 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "356 KB",
+              "driveId": "1MwIQjhYAz1i3j1v-mByLQgVhfXDpIDTO"
+            },
+            {
+              "titulo": "Soul Forged Cap 36 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "290 KB",
+              "driveId": "1pdcc-dV-OdYrDqHWuekLaPR9yEgrUd7N"
+            },
+            {
+              "titulo": "Soul Forged Cap 37 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "329 KB",
+              "driveId": "12t249TORQnlL1T3HpMLR5lAXV1T3leNd"
+            },
+            {
+              "titulo": "Soul Forged Cap 38 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "390 KB",
+              "driveId": "1_XApOXrxxa9CvVKySLmUy5D49_okeTeT"
+            },
+            {
+              "titulo": "Soul Forged Cap 39 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "364 KB",
+              "driveId": "1KKEDBAnjnEI5glliXg1yhY-RI1Kazn3z"
+            },
+            {
+              "titulo": "Soul Forged Cap 4 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "84 KB",
+              "driveId": "1E9zN7IlD2P3W4HSGFDzIVAnaWYcOYCdk"
+            },
+            {
+              "titulo": "Soul Forged Cap 40 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "302 KB",
+              "driveId": "1yKaKcFKN-M6g6IsP9-5J_1lrhNOIc3Kd"
+            },
+            {
+              "titulo": "Soul Forged Cap 41 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "82 KB",
+              "driveId": "18-a5FiizatJlTehpqWNhpM5fuwYU20LT"
+            },
+            {
+              "titulo": "Soul Forged Cap 42 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "79 KB",
+              "driveId": "1bIp1NsGCe3jD6Vq-oYshDFe1vMeUiwmz"
+            },
+            {
+              "titulo": "Soul Forged Cap 43 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "62 KB",
+              "driveId": "1scLPSwBknOkQ-eVxxVEHgU0zNeOwew1N"
+            },
+            {
+              "titulo": "Soul Forged Cap 44 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "15 KB",
+              "driveId": "14_FScaHsINX87Wk0kJkbRKFugC8PTWb1"
+            },
+            {
+              "titulo": "Soul Forged Cap 45 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "15 KB",
+              "driveId": "165sNCeu5z7pNFw3lrA_jS9TqHYDxvnfp"
+            },
+            {
+              "titulo": "Soul Forged Cap 46 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "15 KB",
+              "driveId": "1JNy7o4dLFW6lOyXG3tHRe7ICCD3uQ4FL"
+            },
+            {
+              "titulo": "Soul Forged Cap 47 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "11 KB",
+              "driveId": "1YalxY03CCLx0tUR-ja1-rMF4ccPEEJmo"
+            },
+            {
+              "titulo": "Soul Forged Cap 48 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "16 KB",
+              "driveId": "19V7Oei4ZgFlwVpTefk6FAQPhQHAfJjsu"
+            },
+            {
+              "titulo": "Soul Forged Cap 49 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "20 KB",
+              "driveId": "14YAo-8ALcapwoHEoZGoQIIOutQgSkeOu"
+            },
+            {
+              "titulo": "Soul Forged Cap 5 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "88 KB",
+              "driveId": "133HJW0Oe40vzgowws3Yiy5Gxks25pOfZ"
+            },
+            {
+              "titulo": "Soul Forged Cap 50 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "20 KB",
+              "driveId": "1SWDdH1kCtMnMQMUbnAiE7D-pK0H2YV9b"
+            },
+            {
+              "titulo": "Soul Forged Cap 6 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "87 KB",
+              "driveId": "14Ey_kqB73vNUxZDTJFX3avZUKhl3JNU2"
+            },
+            {
+              "titulo": "Soul Forged Cap 7 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "90 KB",
+              "driveId": "1t9ArQNh9CmfSNg27WqhPuD7JJ-uuWC4w"
+            },
+            {
+              "titulo": "Soul Forged Cap 8 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "92 KB",
+              "driveId": "1bhx0PKNdChZJNHlroB2183m3HdsogghX"
+            },
+            {
+              "titulo": "Soul Forged Cap 9 ES",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "31 KB",
+              "driveId": "1d9tIA_3iXle3H4m_oQqWt5mZqM4hKqit"
+            }
+          ]
+        },
+        {
+          "id": "traduccion-por-ia-vol-1-pdf",
+          "label": "Traducción por IA · VOL 1 · PDF",
+          "items": [
+            {
+              "titulo": "Soul Forged cap 1 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "92 KB",
+              "driveId": "1nZBsJjRZFhj4aUG5LqZkytQiV16H2C_8"
+            },
+            {
+              "titulo": "Soul Forged Cap 11 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "797 KB",
+              "driveId": "1GcwR7Fkzsg8ZOl1abP6n2XACzAtWIsLs"
+            },
+            {
+              "titulo": "Soul Forged Cap 12 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "483 KB",
+              "driveId": "1RY0MS_wTR5FhGQ-oVAckPMgLZ4BABHGa"
+            },
+            {
+              "titulo": "Soul Forged Cap 13 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "501 KB",
+              "driveId": "1se6FnzCpmbDu_rjHh3MTbnXlsWK1KJHD"
+            },
+            {
+              "titulo": "Soul Forged Cap 14 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "885 KB",
+              "driveId": "1RppgfqgDp4YToz-OrOWoczDD8L13mFS4"
+            },
+            {
+              "titulo": "Soul Forged Cap 15 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "912 KB",
+              "driveId": "1hBuqYrjV55YdZNvn3anBDsGnly1N9S9P"
+            },
+            {
+              "titulo": "Soul Forged Cap 16 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "649 KB",
+              "driveId": "1KxUf3ngDhZvW3NzrauGNT2N-l6OEunIg"
+            },
+            {
+              "titulo": "Soul Forged Cap 17 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "504 KB",
+              "driveId": "1yJxl--kn094bGz5ukADdxMuAmdHPmcRw"
+            },
+            {
+              "titulo": "Soul Forged Cap 18 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "469 KB",
+              "driveId": "1YtD0b2xpcHJErRzeNH3XgAvMbZ_e0Phr"
+            },
+            {
+              "titulo": "Soul Forged Cap 19 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "566 KB",
+              "driveId": "1w6bo5odz90WO_jZrQBzaHDy9pwgiUsaY"
+            },
+            {
+              "titulo": "Soul Forged cap 2 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "114 KB",
+              "driveId": "1Z3pL4aZ4QQqcUIS6-a4PdJE3b4Iu9gg0"
+            },
+            {
+              "titulo": "Soul Forged Cap 20 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "640 KB",
+              "driveId": "1tDbCElbiMuqn3JV-EwsodUX9gyxwqFWh"
+            },
+            {
+              "titulo": "Soul Forged Cap 21 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "537 KB",
+              "driveId": "1vGzfYsApwZjay6wCz_ja4hJN8RjXifvw"
+            },
+            {
+              "titulo": "Soul Forged Cap 22 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "549 KB",
+              "driveId": "1LXZT9zQg4pOmFu_6HA03dJ4_0KGRNhRk"
+            },
+            {
+              "titulo": "Soul Forged Cap 23 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "615 KB",
+              "driveId": "1ctBZj4uIU2qBXpKwG0DbzUyDku_4CJVn"
+            },
+            {
+              "titulo": "Soul Forged Cap 24 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "656 KB",
+              "driveId": "1ig6jFgYfKuZn9OoCDhfzmdTjMYTVRMoa"
+            },
+            {
+              "titulo": "Soul Forged Cap 25 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "678 KB",
+              "driveId": "1otjqmyIPj-lrKY9tWJ2LSnqwDkc-zcEp"
+            },
+            {
+              "titulo": "Soul Forged Cap 26 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "598 KB",
+              "driveId": "1mTd0IscJWyvNGYxst8ULa0ZkoYb2x1hb"
+            },
+            {
+              "titulo": "Soul Forged Cap 27 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "664 KB",
+              "driveId": "1I2WMroUih7jcl8M2ottY6B3XP8-qjC8s"
+            },
+            {
+              "titulo": "Soul Forged Cap 28 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "705 KB",
+              "driveId": "1BWWmvk9C-BIf7CCScHJq-ocgGeYCesiI"
+            },
+            {
+              "titulo": "Soul Forged Cap 29 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "408 KB",
+              "driveId": "1D2cvcpQ2Q2JVgBoosZ-1LeAcYNPTnR2y"
+            },
+            {
+              "titulo": "Soul Forged cap 3 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "98 KB",
+              "driveId": "1sGXKfmm9x5CevNGI25ME0o1nHA9qMJfx"
+            },
+            {
+              "titulo": "Soul Forged Cap 30 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "411 KB",
+              "driveId": "1wgF0yL7IruBW4ce02tzXmLekPpj16Iep"
+            },
+            {
+              "titulo": "Soul Forged Cap 31 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "533 KB",
+              "driveId": "1XTOXAq-HAC7M-DW3qMo_mpb0cpSb-ZkI"
+            },
+            {
+              "titulo": "Soul Forged Cap 32 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "656 KB",
+              "driveId": "1tmKfQMC1sBehhOB5eX5vDx3nSDDIpKZ8"
+            },
+            {
+              "titulo": "Soul Forged Cap 33 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "963 KB",
+              "driveId": "1JNLjSC_jcB0LGHHWsKDq3ICaNiEodZ-s"
+            },
+            {
+              "titulo": "Soul Forged Cap 34 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1012 KB",
+              "driveId": "1bPFb-RCIIhKI7IJ5eA1st_jfyrLAPks9"
+            },
+            {
+              "titulo": "Soul Forged Cap 35 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "775 KB",
+              "driveId": "1JdBGb-Wpytv4rsTuVoC4ZRJX0bedCKtT"
+            },
+            {
+              "titulo": "Soul Forged Cap 36 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "680 KB",
+              "driveId": "1bN06hCdONbjOQHLku-FJtv-MChJWonyk"
+            },
+            {
+              "titulo": "Soul Forged Cap 37 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "744 KB",
+              "driveId": "1lzT6dxW-b35SRy6aintSkitMzpLv_-uV"
+            },
+            {
+              "titulo": "Soul Forged Cap 38 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "912 KB",
+              "driveId": "1_0XuvM_DMDEY_3PJ_JmtRl5MciNywSTP"
+            },
+            {
+              "titulo": "Soul Forged Cap 39 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "804 KB",
+              "driveId": "1t43dRUIMXJSUpOAt2iRP_tAYdxPW0M9T"
+            },
+            {
+              "titulo": "Soul Forged cap 4 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "93 KB",
+              "driveId": "1O6qhKq-h2nSA4alCmxH-v-Gi-53ZXdFM"
+            },
+            {
+              "titulo": "Soul Forged Cap 40 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "686 KB",
+              "driveId": "1DQBbVM-XeZQbkJx3vPjw_u7LPRN1qoFt"
+            },
+            {
+              "titulo": "Soul Forged cap 41 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "33 KB",
+              "driveId": "1hbxc_TPbEB0jfDr8CI0NshH0Q3iet1VV"
+            },
+            {
+              "titulo": "Soul Forged cap 42 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "34 KB",
+              "driveId": "1nQLDgAPLQXVLXWcltY_PJyH-YA0VH9fz"
+            },
+            {
+              "titulo": "Soul Forged cap 44 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "38 KB",
+              "driveId": "15q9rSgM1uPy_TYX0pFAmmYtbkZuRYo3z"
+            },
+            {
+              "titulo": "Soul Forged cap 45 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "35 KB",
+              "driveId": "1flWS9804ptAB_h-y9Cu5X1vf_1hauyVy"
+            },
+            {
+              "titulo": "Soul Forged cap 46 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "38 KB",
+              "driveId": "1S64KZ0PggJmwRCewul3RwGVaE2bActQx"
+            },
+            {
+              "titulo": "Soul Forged cap 47 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "26 KB",
+              "driveId": "1BjVHk3Bd-cAjofahP5ZiFHPX_jsqD27c"
+            },
+            {
+              "titulo": "Soul Forged Cap 48 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "41 KB",
+              "driveId": "1fUtnHiYhFqgZZ4qPXCpevnO8eGcqRmy3"
+            },
+            {
+              "titulo": "Soul Forged Cap 49 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "57 KB",
+              "driveId": "1cmjXCBSyKQm0byAOxnOL7YDO1DNiNxvj"
+            },
+            {
+              "titulo": "Soul Forged cap 5 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "101 KB",
+              "driveId": "1t2EvbY-lt15UIoRQEON-WW2oIs_3JJ9U"
+            },
+            {
+              "titulo": "Soul Forged cap 6 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "98 KB",
+              "driveId": "129GoFD1hpaosI2RiqAONzFF14LPIJZ39"
+            },
+            {
+              "titulo": "Soul Forged cap 7 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "104 KB",
+              "driveId": "1tO0rNjS4_iArGlSUQOtSFVprRrC5uzuH"
+            },
+            {
+              "titulo": "Soul Forged cap 8 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "106 KB",
+              "driveId": "1rcR-qI7466vy6sSa-C0PCe9RttSvdgFs"
+            },
+            {
+              "titulo": "Soul Forged cap 9 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "397 KB",
+              "driveId": "1WGrnqCeapCHZGGTcyfWRAOMnYhiWasua"
+            },
+            {
+              "titulo": "Soul Forgfed Cap 50 ES",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "55 KB",
+              "driveId": "1Z5JVN3SOf-wmB3aORXdkpekEyjCIH_uI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tbate",
+      "label": "TBATE",
+      "color": "var(--arcane)",
+      "grupos": [
+        {
+          "id": "spanish",
+          "label": "Spanish",
+          "items": [
+            {
+              "titulo": "TBATE Vol 10",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.0 MB",
+              "driveId": "16oLRLNJc-LRbOuHiP8jiiT_woMOD15b7"
+            },
+            {
+              "titulo": "TBATE Vol 11",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "4.6 MB",
+              "driveId": "1gNIZLD0Hph4Ukq6a0Yzg2cg3fx-dhrvA"
+            },
+            {
+              "titulo": "TBATE Vol 8.5",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "814 KB",
+              "driveId": "1l8durWuptk-WZZm867Fe_teNyDY3Nefq"
+            },
+            {
+              "titulo": "TBATE Vol 8",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "2.7 MB",
+              "driveId": "1TLs2k4jK3f8pLtNcG_xvgiULqHhPppFS"
+            },
+            {
+              "titulo": "TBATE Vol 9",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "2.6 MB",
+              "driveId": "1BBa2HJkRKZYG_stl6I7pd8BMyj8BXOUK"
+            },
+            {
+              "titulo": "The Beginning After The End - Libro12 [Novelas Ligera]",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.9 MB",
+              "driveId": "109arcQWTtfzNQWVGTkY4H1y9bz9gmEMa"
+            },
+            {
+              "titulo": "v1(1) Early Years",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.4 MB",
+              "driveId": "1Grjsh0-HARVEIKZ24u7ylSOGN1wI45_O"
+            },
+            {
+              "titulo": "v1(2) New Heights",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.5 MB",
+              "driveId": "1xv_btTQ_os-lLy71fAA2uytB2HZaQK58"
+            },
+            {
+              "titulo": "v1(3) Beckoning Fates",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.6 MB",
+              "driveId": "1M_rq5iFb9N5WQz1Q2x1yJ8ZJZDGhgLD8"
+            },
+            {
+              "titulo": "v1(4) Horizons Edge",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.9 MB",
+              "driveId": "1KuGbAYgmEGuPjd-cQGiH9-7R-nvMkVp9"
+            },
+            {
+              "titulo": "v1(6) Transcendence",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.1 MB",
+              "driveId": "1DwSaecRwxnzs8XDjQizreeTiYkdUsWl6"
+            },
+            {
+              "titulo": "v1(7) Divergence",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.0 MB",
+              "driveId": "1RPq2FdM3_QfIK_-U3Olr9p8XnsagerNk"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": "artes",
+      "label": "Art",
+      "color": "var(--ember)",
+      "grupos": [
+        {
+          "id": "soul-forged-fanarts-vol-1",
+          "label": "Soul Forged · FanArts · Vol 1",
+          "items": [
+            {
+              "titulo": "Torrin Gray - MaguroArt",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "1.0 MB",
+              "driveId": "1kx1CJst1WerUKQ-x3f_UtUsy4oL3C0oA"
+            }
+          ]
+        },
+        {
+          "id": "soul-forged-oficiales-vol-1",
+          "label": "Soul Forged · Oficiales · Vol 1",
+          "items": [
+            {
+              "titulo": "Concept Art - Harpies, Alpha Hyophage",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "272 KB",
+              "driveId": "1KLREUJg0V1wtPUvaV6zrNLoXyYX4A11k"
+            },
+            {
+              "titulo": "Concept Art - Hyophage",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "314 KB",
+              "driveId": "1vUfL6p7qgODgciTYjO127CuOCE8g64iW"
+            },
+            {
+              "titulo": "Concept Art - Slug-like Fish, Logomorphs",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "177 KB",
+              "driveId": "1gpjTsiNxtaXq_qYhgV2pmnFfFEn-7M3q"
+            },
+            {
+              "titulo": "Concept Art - Speed Dragon, Ironside",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "334 KB",
+              "driveId": "1krfhTwZs15GrCka0NTSCW_QxUdnPJCiT"
+            },
+            {
+              "titulo": "Portada del volumen 1",
+              "sub": "",
+              "formato": "JPEG",
+              "peso": "631 KB",
+              "driveId": "1JFp10JD54SHfEjD-PbsVWXHvgB9di2NL"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales",
+          "label": "TBATE · Oficiales",
+          "items": [
+            {
+              "titulo": "TBATE Vol",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "91.0 MB",
+              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-covers",
+          "label": "TBATE · Oficiales · Covers",
+          "items": [
+            {
+              "titulo": "Copia de 0-Tapas cover",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "176 KB",
+              "driveId": "1QqA5vGYLRSXqOLMS_Vw7Yb7LAqbeo7HW"
+            },
+            {
+              "titulo": "Copia de 1-V1-Original",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "529 KB",
+              "driveId": "1S98207Hrb3NaNDmdeL8aC6WCsVRBKjqU"
+            },
+            {
+              "titulo": "Copia de 1-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "404 KB",
+              "driveId": "1YJhKWCaBde6QQFqTcMM2ougc8WcQbjp-"
+            },
+            {
+              "titulo": "Copia de 1-V3",
+              "sub": "",
+              "formato": "JPEG",
+              "peso": "400 KB",
+              "driveId": "1GqDRRhv6CE45CtSjFSfEWevDJMmOhccW"
+            },
+            {
+              "titulo": "Copia de 10",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "3.5 MB",
+              "driveId": "1iZVOa_k9Rx-pnWjO7i59P4sGvXYkIawK"
+            },
+            {
+              "titulo": "Copia de 11 (promotional)",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "6.2 MB",
+              "driveId": "1IUvmys2gzrsdLuKYbze8HfnrA9v6w6HU"
+            },
+            {
+              "titulo": "Copia de 2-3",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "2.6 MB",
+              "driveId": "1MTHZmuDGCI5tEdadF3BXryq3Tv-AYm_1"
+            },
+            {
+              "titulo": "Copia de 2-V1-Original",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "472 KB",
+              "driveId": "1QiVtNdq8DpeUw6ulLp6kWo-GeC0LaPLO"
+            },
+            {
+              "titulo": "Copia de 2-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "637 KB",
+              "driveId": "1kob8TjlpyLYHcjE-YCP34vOt48JOztJK"
+            },
+            {
+              "titulo": "Copia de 3-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "315 KB",
+              "driveId": "1BNU2671HqwtI7m9u4PHaPv45nxCD3_pQ"
+            },
+            {
+              "titulo": "Copia de 3-V2",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "507 KB",
+              "driveId": "1MTIOXDyCqkBBunA29OmuJP_Y8ZJGMDWg"
+            },
+            {
+              "titulo": "Copia de 4-2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "120 KB",
+              "driveId": "1bjtOnP1Y90xjHC54EL_AoXQGXJCY0uyr"
+            },
+            {
+              "titulo": "Copia de 4-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "681 KB",
+              "driveId": "1JO4lvVfDcmMg4xzMCnaaVsvzWuH7OTcO"
+            },
+            {
+              "titulo": "Copia de 5-V1",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "628 KB",
+              "driveId": "1L9n1Jq93L9t_BIEfIkSEut4iyQ8rrrCG"
+            },
+            {
+              "titulo": "Copia de 5-V2",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "471 KB",
+              "driveId": "1KH6UvMc3Xi3_uhg3BPXkarHeE2Rep78K"
+            },
+            {
+              "titulo": "Copia de 6",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "1.4 MB",
+              "driveId": "1id1iDTR8bIjU7EWfSJL1DWnJqFe6FVZY"
+            },
+            {
+              "titulo": "Copia de 7",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "427 KB",
+              "driveId": "1xRNFq1xGQL0rvvhJQJpsHu4skSvqhqNr"
+            },
+            {
+              "titulo": "Copia de 8-Ascencion",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "425 KB",
+              "driveId": "1dVyV7Q2ACSY2wOZT4fOtFxPnRnAj7Yg5"
+            },
+            {
+              "titulo": "Copia de 8.5",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "337 KB",
+              "driveId": "1O2gMbQda3-Qbq0_AQ6sSbLiPRJ17ndWT"
+            },
+            {
+              "titulo": "Copia de 9",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "2.3 MB",
+              "driveId": "1AG1R-EKespsGTGsPgPysiuXp0yXRL9gT"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-novel-arts",
+          "label": "TBATE · Oficiales · Novel Arts",
+          "items": [
+            {
+              "titulo": "Copia de 265358975 1247121502453779 5536747709819687376 n",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "159 KB",
+              "driveId": "1-CuQnNj3sM5BrkqvkW3jQmNkqXnu4g6m"
+            },
+            {
+              "titulo": "Copia de Anime TheBeginningAfterTheEnd Tapas TurtleMe X",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "462 KB",
+              "driveId": "16p9OJI-avDKtgtJg7iv44zhRjTTNvJon"
+            },
+            {
+              "titulo": "Copia de carea seris",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "9.1 MB",
+              "driveId": "1aPo64HOcdD46lyLTDSK-4nrfRKVa07vo"
+            },
+            {
+              "titulo": "Copia de Clean Volume 6 cover",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "13.7 MB",
+              "driveId": "1S38oCqWXnoHlwMzej8EvmpkVnznJ9P4m"
+            },
+            {
+              "titulo": "Copia de f2abb2 f2be9e4d96b14d37aea1f460eb9448ca mv2",
+              "sub": "",
+              "formato": "WEBP",
+              "peso": "482 KB",
+              "driveId": "1l_smtGM3loS-wExvkrYPu9EyPkcSgjXG"
+            },
+            {
+              "titulo": "Copia de Grey vs Wraith",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "30.1 MB",
+              "driveId": "1dWA_PiAEpzVwB7PIGPqAofGJVZdvHuHr"
+            },
+            {
+              "titulo": "Copia de Medium Ver. 58MB",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "58.8 MB",
+              "driveId": "1dGB3p6rlEtHOkKzI2_jWDstwuZNC2rnu"
+            },
+            {
+              "titulo": "Copia de sf0wozd0t2b91",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "76 KB",
+              "driveId": "12cbhZhFRP6lezwpl8eBTp0vZx6eoMcyw"
+            },
+            {
+              "titulo": "Copia de Small Ver. 24MB",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "24.3 MB",
+              "driveId": "1m_OetA_NTG-Sr4L53Rh7m3EqHEUugHvX"
+            },
+            {
+              "titulo": "Copia de Tapas Novel Cover",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "3.6 MB",
+              "driveId": "1eKGpxwnQA2-NoJUE2rLB273vk2mQhpl2"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 17x11",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "30.1 MB",
+              "driveId": "1NiIsp7nXutOwUPvkk0pTIw7aJzqUXLi7"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 24x18",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "61.3 MB",
+              "driveId": "1DG-xyyS-5QcIBQ2JFHvtvG3GDO0ICUV_"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer-extended 36x24",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "110.0 MB",
+              "driveId": "1703iGJkqaLvQBKmAzjlhW5geOZfGlXpx"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint ScytheRetainer original",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "65.4 MB",
+              "driveId": "1ux9f1DydLF9VWJQ8AthJake6ArLY9hVL"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint Vol08 36x24",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "89.6 MB",
+              "driveId": "1025l1J0FOa7sH-E6KzJgiJ2Cp83kcmVc"
+            },
+            {
+              "titulo": "Copia de TBATE ArtPrint Vol08 original",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "93.2 MB",
+              "driveId": "1uxBZcXhLH3NRcFEBBHrE-blDJCmdqOwZ"
+            },
+            {
+              "titulo": "Copia de tessia agrona artwork",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "2.5 MB",
+              "driveId": "1TV2V1aSHMzG1pMqXdvQK4k49kHn35C4N"
+            },
+            {
+              "titulo": "Copia de Tessia full",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "8.0 MB",
+              "driveId": "1btSvzYdbtznxmce9nHfodVXFYD1dUmrp"
+            },
+            {
+              "titulo": "Copia de Vol 5 Full ver",
+              "sub": "",
+              "formato": "JPG",
+              "peso": "3.7 MB",
+              "driveId": "10kjuhwI1RICno0Yj7VYezsjOZA1ZHBQv"
+            },
+            {
+              "titulo": "Copia de vol 8 full ver",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "74.2 MB",
+              "driveId": "1kvdRPfpOZ-OJWrzQFJDI5fmjoneJxZzb"
+            }
+          ]
+        },
+        {
+          "id": "tbate-oficiales-novel-arts-maps",
+          "label": "TBATE · Oficiales · Novel Arts · Maps",
+          "items": [
+            {
+              "titulo": "Copia de Dicathen",
+              "sub": "",
+              "formato": "WEBP",
+              "peso": "465 KB",
+              "driveId": "1b9z4lbzL_aUkvLIxYqWNrF6f8EvCkAR9"
+            },
+            {
+              "titulo": "Copia de small alacrya",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "4.9 MB",
+              "driveId": "19wLxahZXYc7L6Kc7iC1NjSsQLS6mGRNS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soulforged",
+      "label": "Soul Forged",
+      "color": "var(--soul)",
+      "grupos": [
+        {
+          "id": "volume-1",
+          "label": "Volume 1",
+          "items": [
+            {
+              "titulo": "Soul Forged vol 1 En",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.4 MB",
+              "driveId": "1ORrJ1ipq4Wn4ErYO3FSOrtCABTHcGqKL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tbate",
+      "label": "TBATE",
+      "color": "var(--arcane)",
+      "grupos": [
+        {
+          "id": "english",
+          "label": "English",
+          "items": [
+            {
+              "titulo": "Book 1 - Early Years (1)",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.2 MB",
+              "driveId": "1WSw2ydl00O3Z_6zCY-qstE1VQjWDOJPK"
+            },
+            {
+              "titulo": "Book 10 - Retribution",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.6 MB",
+              "driveId": "1TiNtuyIhRsp6JYMIaSWyZkfzwZsEI3_v"
+            },
+            {
+              "titulo": "Book 11 - Providence",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.2 MB",
+              "driveId": "1K1W1j9nOlP96YTVDGszny9FNsCo7UR6N"
+            },
+            {
+              "titulo": "Book 2 - New Heights",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.3 MB",
+              "driveId": "1d5jmAt48qc-qui98JqwPc0okcVvMZ_80"
+            },
+            {
+              "titulo": "Book 3 - Beckoning Fates",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.4 MB",
+              "driveId": "1G9u9qWMOfzJI2umdol5K4hWZMkj9SU2b"
+            },
+            {
+              "titulo": "Book 4 - Horizon's Edge",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.2 MB",
+              "driveId": "1zOJevEXDw4ZHcZ1Cr1o7dRicrAk90rFe"
+            },
+            {
+              "titulo": "Book 5 - Convergence - Arthur Prisoner - To right my wrong",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.2 MB",
+              "driveId": "16chd7-TrErc6nxHzCKBWMGNntGSffDeZ"
+            },
+            {
+              "titulo": "Book 6 - Transcendence War start... Agrona Talks to Arthur (3)",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "2.4 MB",
+              "driveId": "1ulXU2iwCI23caj-lfFjWHzMD7GiIqKHe"
+            },
+            {
+              "titulo": "Book 7 - Divergence Attack on the Wall... Sylvie",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "2.3 MB",
+              "driveId": "1iMHRpOtM6j98oK8bf-qyVcI84PS0xh9V"
+            },
+            {
+              "titulo": "Book 8 - Ascension Regis... Elenoir Destroyed (1)",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "2.2 MB",
+              "driveId": "15QovFwatyIv6klXBlqlzTzA3r4n05FHe"
+            },
+            {
+              "titulo": "Book 9 - Reckoning Arthur's Trial... Back in Dicathen",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.2 MB",
+              "driveId": "1r4vRt8T4yr3R4ZanY3vjfmd5gvCiy25o"
+            },
+            {
+              "titulo": "The Beginning After the End - Volume 8.5",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "1.5 MB",
+              "driveId": "1BzIV8-1EnY4NG5ic5vwZUbQKXzTzrH1a"
+            },
+            {
+              "titulo": "VOL.12 - TBATE (English) (1)",
+              "sub": "",
+              "formato": "PDF",
+              "peso": "3.0 MB",
+              "driveId": "1WWqqRdEOJjrVHCUAFarmUQK0WPUTAJvy"
+            }
+          ]
+        },
+        {
+          "id": "remastered-english",
+          "label": "Remastered · English",
+          "items": [
+            {
+              "titulo": "Book 1 - Early Years",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.8 MB",
+              "driveId": "1dnQthEv7WYxmkLDtZuVWoRH4Gkdboqte"
+            },
+            {
+              "titulo": "Book 10 - Retribution",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "2.2 MB",
+              "driveId": "1mnjC8txSWPpa29yercVVtmsRmNz7_IGh"
+            },
+            {
+              "titulo": "Book 11 - Providence",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "2.8 MB",
+              "driveId": "1OrUy8JlKC_TGzrtgDq3KaMRRKJRQ4GmI"
+            },
+            {
+              "titulo": "Book 12 - Apotheosis",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "4.2 MB",
+              "driveId": "1Lv9ONQuVL1GLYjARgiogdnGqDP5pRn0r"
+            },
+            {
+              "titulo": "Book 2 - New Heights",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.8 MB",
+              "driveId": "1PqAWx16Kq5pMgWNN0a2AU8jEZqt3GuIW"
+            },
+            {
+              "titulo": "Book 3 - Beckoning Fates",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.6 MB",
+              "driveId": "1LDYVtJ1D0U_4q9abuZkn0RpSpRmLQfVE"
+            },
+            {
+              "titulo": "Book 4 - Horizons Edge",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.4 MB",
+              "driveId": "1aQOxav22DhMUbBlA5YZL41QGT03vVXQv"
+            },
+            {
+              "titulo": "Book 5 - Convergence",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.7 MB",
+              "driveId": "1i4q1Fy2Rwnhww0iKlnN30QF-xWOX2xuw"
+            },
+            {
+              "titulo": "Book 6 - Transcendence",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.7 MB",
+              "driveId": "1C_rcaz6mWzyUqUHwZIvWPHWqlGeqeauo"
+            },
+            {
+              "titulo": "Book 7 - Divergence",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "1.8 MB",
+              "driveId": "1SbVUCBPD9oLTif_KfDO0kn26bUidwtQC"
+            },
+            {
+              "titulo": "Book 8 - Ascension",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "2.3 MB",
+              "driveId": "1oAH8D782HiWX6fF5HzsB8hwgpbL07DXs"
+            },
+            {
+              "titulo": "Book 9 - Reckoning",
+              "sub": "",
+              "formato": "EPUB",
+              "peso": "2.3 MB",
+              "driveId": "1yJPlh_ISAZAMx-1uOnw7i0LI_CZcN39x"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

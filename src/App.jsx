@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
+import ARCHIVO from "./archivo.json";
 
 /*
   ──────────────────────────────────────────────────────────────
@@ -28,90 +29,6 @@ import { useLocation, useNavigate } from "react-router-dom";
   El driveId sale de: drive.google.com/file/d/ESTO_ES_EL_ID/view
   ─────────────────────────────────────────────────────────────
 */
-const ARCHIVO = {
-  es: [
-    {
-      id: "soulforged", label: "Soul Forged", color: "var(--soul)",
-      grupos: [
-        { id: "sf-v1", label: "Volumen 1", items: [
-          { titulo: "Soul Forged — Vol. 1", sub: "Caps. 1–20 · Traducción ES", formato: "EPUB", peso: "2.4 MB", driveId: "PEGA_ID_1" },
-          { titulo: "Soul Forged — Vol. 1", sub: "Caps. 1–20 · Traducción ES", formato: "PDF",  peso: "5.1 MB", driveId: "PEGA_ID_2" },
-        ]},
-        { id: "sf-v2", label: "Volumen 2", items: [
-          { titulo: "Soul Forged — Vol. 2", sub: "Caps. 21–40 · Traducción ES", formato: "EPUB", peso: "2.7 MB", driveId: "PEGA_ID_3" },
-          { titulo: "Soul Forged — Vol. 2", sub: "Caps. 21–40 · Traducción ES", formato: "PDF",  peso: "5.6 MB", driveId: "PEGA_ID_4" },
-        ]},
-      ],
-    },
-    {
-      id: "tbate", label: "TBATE", color: "var(--arcane)",
-      grupos: [
-        { id: "tb-v1", label: "Web Serial · Vol. 1", items: [
-          { titulo: "TBATE — Vol. 1", sub: "Capítulos gratuitos del autor", formato: "PDF", peso: "8.3 MB", driveId: "PEGA_ID_5" },
-        ]},
-        { id: "tb-v2", label: "Web Serial · Vol. 2", items: [
-          { titulo: "TBATE — Vol. 2", sub: "Capítulos gratuitos del autor", formato: "PDF", peso: "9.0 MB", driveId: "PEGA_ID_6" },
-        ]},
-      ],
-    },
-    {
-      id: "artes", label: "Artes", color: "var(--ember)",
-      grupos: [
-        { id: "ar-fan", label: "Fan art", items: [
-          { titulo: "Pack de artes — Vol. 1", sub: "Fan art · con crédito a artistas", formato: "ZIP", peso: "44 MB", driveId: "PEGA_ID_7" },
-        ]},
-      ],
-    },
-    {
-      id: "extras", label: "Extras", color: "var(--muted)",
-      grupos: [
-        { id: "ex-ref", label: "Referencia", items: [
-          { titulo: "Glosario Soul Forged", sub: "Términos del universo · ES", formato: "PDF", peso: "640 KB", driveId: "PEGA_ID_8" },
-          { titulo: "Línea de tiempo TBATE", sub: "Cronología de eventos", formato: "PNG", peso: "3.2 MB", driveId: "PEGA_ID_9" },
-        ]},
-      ],
-    },
-  ],
-  en: [
-    {
-      id: "soulforged", label: "Soul Forged", color: "var(--soul)",
-      grupos: [
-        { id: "sf-v1", label: "Volume 1", items: [
-          { titulo: "Soul Forged — Vol. 1", sub: "Chs. 1–20 · Original EN", formato: "EPUB", peso: "2.4 MB", driveId: "PEGA_ID_EN_1" },
-          { titulo: "Soul Forged — Vol. 1", sub: "Chs. 1–20 · Original EN", formato: "PDF",  peso: "5.1 MB", driveId: "PEGA_ID_EN_2" },
-        ]},
-      ],
-    },
-    {
-      id: "tbate", label: "TBATE", color: "var(--arcane)",
-      grupos: [
-        { id: "tb-v1", label: "Web Serial · Vol. 1", items: [
-          { titulo: "TBATE — Vol. 1", sub: "Free chapters by the author", formato: "PDF", peso: "8.3 MB", driveId: "PEGA_ID_EN_3" },
-        ]},
-        { id: "tb-v2", label: "Web Serial · Vol. 2", items: [
-          { titulo: "TBATE — Vol. 2", sub: "Free chapters by the author", formato: "PDF", peso: "9.0 MB", driveId: "PEGA_ID_EN_4" },
-        ]},
-      ],
-    },
-    {
-      id: "art", label: "Art", color: "var(--ember)",
-      grupos: [
-        { id: "ar-fan", label: "Fan art", items: [
-          { titulo: "Art Pack — Vol. 1", sub: "Fan art · artist credits included", formato: "ZIP", peso: "44 MB", driveId: "PEGA_ID_EN_5" },
-        ]},
-      ],
-    },
-    {
-      id: "extras", label: "Extras", color: "var(--muted)",
-      grupos: [
-        { id: "ex-ref", label: "Reference", items: [
-          { titulo: "Soul Forged Glossary", sub: "Universe terms · EN", formato: "PDF", peso: "640 KB", driveId: "PEGA_ID_EN_6" },
-          { titulo: "TBATE Timeline", sub: "Chronology of events", formato: "PNG", peso: "3.2 MB", driveId: "PEGA_ID_EN_7" },
-        ]},
-      ],
-    },
-  ],
-};
 
 const urlDescarga = (id) => `https://drive.google.com/uc?export=download&id=${id}`;
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -242,7 +159,7 @@ function Grupo({ grupo, color }) {
   );
 }
 
-const DISCORD_URL = "https://discord.gg/PLACEHOLDER";
+const DISCORD_URL = "https://discord.gg/WnQq8c64Q6";
 
 export default function ArchivoTurtleMe() {
   const { t, i18n } = useTranslation();
