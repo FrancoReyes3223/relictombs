@@ -54,6 +54,10 @@ const PLAIN_LANG = new Set(["español", "espanol", "spanish", "castellano", "eng
 
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 
+// Cap\u00edtulo suelto (no tiene portada propia): "Cap 12", "Cap\u00edtulo 3", "Chapter 7", "Ch. 5".
+// Los vol\u00famenes completos ("Vol 10", "Book 1") y las artes s\u00ed tienen previsualizaci\u00f3n.
+const isChapter = (titulo) => /\bcap(?:[i\u00ed]tulo)?\.?\s*\d|\bchapter\s*\d|\bch\.?\s*\d/i.test(titulo);
+
 async function listChildren(folderId) {
   const out = [];
   let pageToken;
@@ -104,19 +108,23 @@ function cleanTitle(name) {
   return name.replace(/\.[a-z0-9]{2,5}$/i, "").replace(/[_]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function toItem(file) {
-  return {
-    titulo: cleanTitle(file.name),
+function toItem(file, previewAll) {
+  const titulo = cleanTitle(file.name);
+  const item = {
+    titulo,
     sub: "",
     formato: formatOf(file),
     peso: humanSize(file.size),
     driveId: file.id,
   };
+  // Previsualización: siempre en artes; en libros, solo volúmenes completos.
+  if (previewAll || !isChapter(titulo)) item.preview = true;
+  return item;
 }
 
 // Recorre desde `folderId` juntando archivos en grupos.
 // El label del grupo es el camino de subcarpetas recorrido (`path`).
-async function collectGroups(folderId, path, fallbackLabel) {
+async function collectGroups(folderId, path, fallbackLabel, previewAll = false) {
   const children = await listChildren(folderId);
   const files = children.filter(isPackaged);
   const folders = children.filter(isFolder);
@@ -126,11 +134,11 @@ async function collectGroups(folderId, path, fallbackLabel) {
     groups.push({
       id: norm((path.join("-") || fallbackLabel)).replace(/[^a-z0-9]+/g, "-"),
       label: path.join(" · ") || fallbackLabel,
-      items: files.map(toItem),
+      items: files.map((f) => toItem(f, previewAll)),
     });
   }
   for (const f of folders) {
-    groups.push(...(await collectGroups(f.id, [...path, f.name], fallbackLabel)));
+    groups.push(...(await collectGroups(f.id, [...path, f.name], fallbackLabel, previewAll)));
   }
   return groups;
 }
@@ -152,7 +160,8 @@ async function main() {
     }
 
     if (cfg.mode === "dual") {
-      const groups = await collectGroups(top.id, [], cfg.label.es);
+      // "dual" hoy = Artes → todas con previsualización.
+      const groups = await collectGroups(top.id, [], cfg.label.es, true);
       if (!groups.length) continue;
       for (const lang of ["es", "en"]) {
         archivo[lang].push({ id: cfg.id, label: cfg.label[lang], color: cfg.color, grupos: groups });

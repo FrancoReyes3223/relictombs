@@ -1,4 +1,5 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
 import ARCHIVO from "./archivo.json";
@@ -31,8 +32,18 @@ import ARCHIVO from "./archivo.json";
 */
 
 const urlDescarga = (id) => `https://drive.google.com/uc?export=download&id=${id}`;
+const urlThumb = (id) => `https://drive.google.com/thumbnail?id=${id}&sz=w600`;
+const urlThumbFull = (id) => `https://drive.google.com/thumbnail?id=${id}&sz=w1600`;
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const contarColeccion = (c) => c.grupos.reduce((n, g) => n + g.items.length, 0);
+
+// Orden natural (num\u00e9rico): "Cap 2" antes que "Cap 12". asc = A\u2192Z, desc = Z\u2192A.
+const ordenarItems = (items, orden) => {
+  const out = [...items].sort((a, b) =>
+    a.titulo.localeCompare(b.titulo, undefined, { numeric: true, sensitivity: "base" })
+  );
+  return orden === "desc" ? out.reverse() : out;
+};
 
 function Overlays() {
   return (
@@ -115,15 +126,60 @@ function ManaCore({ color }) {
   );
 }
 
+function Lightbox({ item, onClose }) {
+  const { t } = useTranslation();
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
+  }, [onClose]);
+  return createPortal(
+    <div className="lb-backdrop" onClick={onClose} role="dialog" aria-modal="true" aria-label={item.titulo}>
+      <button className="lb-close" onClick={onClose} aria-label={t("close")}>✕</button>
+      <figure className="lb-figure" onClick={(e) => e.stopPropagation()}>
+        <img className="lb-img" src={urlThumbFull(item.driveId)} alt={item.titulo} referrerPolicy="no-referrer" />
+        <figcaption className="lb-cap">{item.titulo}</figcaption>
+      </figure>
+    </div>,
+    document.body
+  );
+}
+
 function Tarjeta({ item, color }) {
   const { t } = useTranslation();
   const placeholder = item.driveId.startsWith("PEGA_ID");
+  const [thumbFailed, setThumbFailed] = useState(false);
+  const [open, setOpen] = useState(false);
+  const close = useCallback(() => setOpen(false), []);
+  const showThumb = item.preview && !placeholder && !thumbFailed;
   return (
     <article className="card" style={{ "--accent": color }}>
-      <div className="card-cover">
-        <ManaCore color={color} />
+      <div className={`card-cover ${showThumb ? "card-cover-thumb" : ""}`}>
+        {showThumb ? (
+          <>
+            <img
+              className="card-thumb"
+              src={urlThumb(item.driveId)}
+              alt={item.titulo}
+              loading="lazy"
+              referrerPolicy="no-referrer"
+              onClick={() => setOpen(true)}
+              onError={() => setThumbFailed(true)}
+            />
+            <button className="zoom-btn" onClick={() => setOpen(true)} aria-label={t("preview")} title={t("preview")}>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </button>
+          </>
+        ) : (
+          <ManaCore color={color} />
+        )}
         <span className="badge">{item.formato}</span>
       </div>
+      {open && <Lightbox item={item} onClose={close} />}
       <div className="card-body">
         <h4 className="card-title">{item.titulo}</h4>
         <p className="card-sub">{item.sub}</p>
@@ -141,8 +197,9 @@ function Tarjeta({ item, color }) {
   );
 }
 
-function Grupo({ grupo, color }) {
+function Grupo({ grupo, color, orden }) {
   const [abierto, setAbierto] = useState(true);
+  const items = useMemo(() => ordenarItems(grupo.items, orden), [grupo.items, orden]);
   return (
     <section className="grupo">
       <button className="grupo-head" onClick={() => setAbierto((v) => !v)} aria-expanded={abierto}>
@@ -152,7 +209,7 @@ function Grupo({ grupo, color }) {
       </button>
       {abierto && (
         <div className="grid">
-          {grupo.items.map((item, i) => <Tarjeta key={i} item={item} color={color} />)}
+          {items.map((item) => <Tarjeta key={item.driveId} item={item} color={color} />)}
         </div>
       )}
     </section>
@@ -174,6 +231,7 @@ export default function ArchivoTurtleMe() {
 
   const [activa, setActiva] = useState("todos");
   const [q, setQ] = useState("");
+  const [orden, setOrden] = useState("asc");
 
   useEffect(() => {
     const l = document.createElement("link");
@@ -195,8 +253,11 @@ export default function ArchivoTurtleMe() {
         for (const it of g.items)
           if (norm(it.titulo + " " + it.sub + " " + col.label + " " + g.label).includes(nq))
             out.push({ item: it, color: col.color });
-    return out;
-  }, [q, buscando, archivo]);
+    out.sort((a, b) =>
+      a.item.titulo.localeCompare(b.item.titulo, undefined, { numeric: true, sensitivity: "base" })
+    );
+    return orden === "desc" ? out.reverse() : out;
+  }, [q, buscando, archivo, orden]);
 
   const coleccionesVisibles = activa === "todos" ? archivo : archivo.filter((c) => c.id === activa);
 
@@ -234,6 +295,18 @@ export default function ArchivoTurtleMe() {
           onChange={(e) => setQ(e.target.value)}
           placeholder={t("search_placeholder")} aria-label={t("search_placeholder")} />
         {buscando && <button className="search-clear" onClick={() => setQ("")} aria-label="Limpiar">✕</button>}
+      </div>
+
+      <div className="toolbar">
+        <button className="sort-btn" onClick={() => setOrden((o) => (o === "asc" ? "desc" : "asc"))}
+          aria-label={t("sort")} title={t("sort")}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M7 4v16" /><path d="M3 8l4-4 4 4" />
+            <path d="M14 7h7" /><path d="M14 12h5" /><path d="M14 17h3" />
+          </svg>
+          <span className="mono">{orden === "asc" ? "A → Z" : "Z → A"}</span>
+        </button>
       </div>
 
       <div className="app">
@@ -280,7 +353,7 @@ export default function ArchivoTurtleMe() {
                   <h2 className="col-title">{col.label}</h2>
                   <span className="col-count mono">{contarColeccion(col)} {t("files")}</span>
                 </div>
-                {col.grupos.map((g) => <Grupo key={g.id} grupo={g} color={col.color} />)}
+                {col.grupos.map((g) => <Grupo key={g.id} grupo={g} color={col.color} orden={orden} />)}
               </section>
             ))
           )}
@@ -379,6 +452,15 @@ const CSS = `
   background:none; border:none; color:var(--muted); cursor:pointer; font-size:14px; padding:4px; }
 .search-clear:hover { color:var(--text); }
 
+/* Toolbar: orden */
+.toolbar { position:relative; z-index:1; max-width:1200px; margin:0 auto 20px; display:flex; justify-content:flex-end; }
+.sort-btn { display:inline-flex; align-items:center; gap:8px; padding:8px 14px;
+  background:var(--surface); border:1px solid var(--line); border-radius:10px; cursor:pointer;
+  color:var(--muted); font-family:var(--body); font-size:13px; font-weight:500;
+  transition:color .18s, border-color .18s, background .18s; }
+.sort-btn:hover { color:var(--text); border-color:color-mix(in srgb,var(--arcane) 45%,transparent); background:var(--surface-2); }
+.sort-btn .mono { font-size:12px; }
+
 /* App: sidebar + contenido */
 .app { display:grid; grid-template-columns:230px 1fr; gap:28px; max-width:1200px; margin:0 auto; align-items:start; position:relative; z-index:1; }
 .rail { position:sticky; top:20px; display:flex; flex-direction:column; gap:4px; }
@@ -421,6 +503,36 @@ const CSS = `
     repeating-linear-gradient( 45deg, rgba(255,255,255,.010) 0 10px, transparent 10px 20px),
     repeating-linear-gradient(-45deg, rgba(255,255,255,.008) 0 10px, transparent 10px 20px);
   border-bottom:1px solid var(--line); }
+.card-cover-thumb { padding:0; height:200px; overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
+  background:
+    radial-gradient(120px 120px at 50% 50%, color-mix(in srgb,var(--accent) 14%,transparent), transparent 70%),
+    var(--void); }
+.card-thumb { max-width:100%; max-height:100%; width:auto; height:auto;
+  object-fit:contain; display:block; cursor:zoom-in; transition:transform .35s ease; }
+.card:hover .card-thumb { transform:scale(1.04); }
+.zoom-btn { position:absolute; top:11px; left:11px; display:grid; place-items:center;
+  width:30px; height:30px; border-radius:8px; cursor:pointer;
+  color:var(--text); background:rgba(7,4,18,.72); border:1px solid var(--line);
+  opacity:0; transform:translateY(-4px); transition:opacity .2s, transform .2s, background .2s; }
+.card-cover-thumb:hover .zoom-btn, .zoom-btn:focus-visible { opacity:1; transform:translateY(0); }
+.zoom-btn:hover { background:color-mix(in srgb,var(--accent) 30%,rgba(7,4,18,.82)); border-color:var(--accent); }
+
+/* Lightbox / previsualización en pantalla completa */
+.lb-backdrop { position:fixed; inset:0; z-index:50; display:grid; place-items:center;
+  padding:clamp(16px,4vw,48px); background:rgba(4,2,12,.88); backdrop-filter:blur(6px);
+  animation:lbFade .18s ease; cursor:zoom-out; }
+.lb-figure { margin:0; display:flex; flex-direction:column; align-items:center; gap:14px;
+  max-width:100%; max-height:100%; cursor:default; animation:lbPop .22s ease; }
+.lb-img { max-width:92vw; max-height:82vh; width:auto; height:auto; object-fit:contain;
+  border-radius:10px; box-shadow:0 24px 80px rgba(0,0,0,.6), 0 0 60px color-mix(in srgb,var(--arcane) 20%,transparent); }
+.lb-cap { font-family:var(--body); font-size:14px; color:var(--text); text-align:center; max-width:90vw; }
+.lb-close { position:fixed; top:18px; right:20px; z-index:51; width:40px; height:40px; border-radius:10px;
+  display:grid; place-items:center; cursor:pointer; font-size:16px;
+  color:var(--text); background:rgba(7,4,18,.7); border:1px solid var(--line); transition:background .2s, border-color .2s; }
+.lb-close:hover { background:rgba(7,4,18,.9); border-color:var(--arcane); }
+@keyframes lbFade { from { opacity:0; } to { opacity:1; } }
+@keyframes lbPop { from { opacity:0; transform:scale(.96); } to { opacity:1; transform:scale(1); } }
 .core { width:88px; height:88px; }
 .core-ring { animation:spin 24s linear infinite; transform-origin:40px 40px; }
 .core-dot { animation:pulse 3.2s ease-in-out infinite; transform-origin:40px 40px; }

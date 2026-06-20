@@ -11,6 +11,9 @@
   "result_for": "para",
   "empty": "No encontré nada con ese nombre. Probá con el título del volumen o el formato.",
   "download": "Descargar",
+  "preview": "Previsualizar",
+  "close": "Cerrar",
+  "sort": "Cambiar orden",
   "missing_id": "Falta el ID",
   "footer": "Hecho por un fan · créditos a TurtleMe y a los artistas",
   "discord": "Unirse al Discord"
