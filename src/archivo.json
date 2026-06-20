@@ -6,20 +6,6 @@
       "color": "var(--ember)",
       "grupos": [
         {
-          "id": "-nuevo-del-drive-ajeno",
-          "label": "_Nuevo del Drive ajeno",
-          "items": [
-            {
-              "titulo": "TBATE World Building EN",
-              "sub": "",
-              "formato": "PDF",
-              "peso": "5.4 MB",
-              "driveId": "1mmC29HeRrLZAip1PD3_T6klTglSmCk9o",
-              "preview": true
-            }
-          ]
-        },
-        {
           "id": "soul-forged-fanarts-vol-1",
           "label": "Soul Forged · FanArts · Vol 1",
           "items": [
@@ -413,20 +399,6 @@
               "formato": "PNG",
               "peso": "3.6 MB",
               "driveId": "1GZL4Y-eDERwA7xiPaPBf_16s6G6Ga5IL",
-              "preview": true
-            }
-          ]
-        },
-        {
-          "id": "tbate-oficiales",
-          "label": "TBATE · Oficiales",
-          "items": [
-            {
-              "titulo": "TBATE Vol",
-              "sub": "",
-              "formato": "PNG",
-              "peso": "91.0 MB",
-              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4",
               "preview": true
             }
           ]
@@ -841,6 +813,14 @@
           "id": "tbate-oficiales-novel-arts",
           "label": "TBATE · Oficiales · Novel Arts",
           "items": [
+            {
+              "titulo": "Arthur vs Agrona & kezzes",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "91.0 MB",
+              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4",
+              "preview": true
+            },
             {
               "titulo": "Copia de 265358975 1247121502453779 5536747709819687376 n",
               "sub": "",
@@ -1835,20 +1815,6 @@
       "color": "var(--ember)",
       "grupos": [
         {
-          "id": "-nuevo-del-drive-ajeno",
-          "label": "_Nuevo del Drive ajeno",
-          "items": [
-            {
-              "titulo": "TBATE World Building EN",
-              "sub": "",
-              "formato": "PDF",
-              "peso": "5.4 MB",
-              "driveId": "1mmC29HeRrLZAip1PD3_T6klTglSmCk9o",
-              "preview": true
-            }
-          ]
-        },
-        {
           "id": "soul-forged-fanarts-vol-1",
           "label": "Soul Forged · FanArts · Vol 1",
           "items": [
@@ -2242,20 +2208,6 @@
               "formato": "PNG",
               "peso": "3.6 MB",
               "driveId": "1GZL4Y-eDERwA7xiPaPBf_16s6G6Ga5IL",
-              "preview": true
-            }
-          ]
-        },
-        {
-          "id": "tbate-oficiales",
-          "label": "TBATE · Oficiales",
-          "items": [
-            {
-              "titulo": "TBATE Vol",
-              "sub": "",
-              "formato": "PNG",
-              "peso": "91.0 MB",
-              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4",
               "preview": true
             }
           ]
@@ -2670,6 +2622,14 @@
           "id": "tbate-oficiales-novel-arts",
           "label": "TBATE · Oficiales · Novel Arts",
           "items": [
+            {
+              "titulo": "Arthur vs Agrona & kezzes",
+              "sub": "",
+              "formato": "PNG",
+              "peso": "91.0 MB",
+              "driveId": "14f6OuSB2-c8y1Kf6j5waRWm-0ia7uUh4",
+              "preview": true
+            },
             {
               "titulo": "Copia de 265358975 1247121502453779 5536747709819687376 n",
               "sub": "",
